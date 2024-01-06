@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "username": "shubham",
+      "id": 1,
+      "mobile": "1111111",
+      "gender": "Female",
+      "email": "shubham@gmail.com"
+    },
+    {
+      "username": "shivangi",
+      "id": 2,
+      "mobile": "9516027179",
+      "gender": "female",
+      "email": "shubham@gmail.com"
+    },
+    {
+      "username": "laxman",
+      "id": 3,
+      "mobile": 8439703424,
+      "gender": "male",
+      "email": "shubham@gmail.com"
+    },
+    {
+      "username": "laxman",
+      "id": 4,
+      "mobile": 8439703424,
+      "gender": "male",
+      "email": "shubham@gmail.com"
+    },
+    {
+      "username": "laxman",
+      "id": 5,
+      "mobile": 8439703424,
+      "gender": "male",
+      "email": "shubham@gmail.com"
+    },
+    {
+      "username": "laxman",
+      "id": 6,
+      "mobile": 8439703424,
+      "gender": "male",
+      "email": "shubham@gmail.com"
+    },
+    {
+      "username": "laxman",
+      "id": 7,
+      "mobile": 8439703424,
+      "gender": "male",
+      "email": "shubham@gmail.com"
+    },
+    {
+      "username": "laxman",
+      "id": 8,
+      "mobile": 8439703424,
+      "gender": "male",
+      "email": "shubham@gmail.com"
+    },
+    {
+      "username": "laxman",
+      "id": 9,
+      "mobile": 8439703424,
+      "gender": "male",
+      "email": "shubham@gmail.com"
+    },
+    {
+      "username": "laxman",
+      "id": 10,
+      "mobile": 8439703424,
+      "gender": "male",
+      "email": "shubham@gmail.com"
+    },
+    {
+      "username": "shivnagi",
+      "id": 11,
+      "mobile": "34443567890",
+      "gender": null,
+      "email": "shivangi@gmial.com"
+    },
+    {
+      "username": null,
+      "id": 12,
+      "mobile": null,
+      "gender": null,
+      "email": null
+    },
+    {
+      "username": null,
+      "id": 13,
+      "mobile": null,
+      "gender": null,
+      "email": null
+    },
+    {
+      "username": null,
+      "id": 14,
+      "mobile": null,
+      "gender": null,
+      "email": null
+    },
+    {
+      "username": "kritika",
+      "id": "111111",
+      "mob": "928349832y3",
+      "gender": "female",
+      "email": "kritika@mgial.com"
+    },
+    {
+      "username": "oqiwnoewfn",
+      "id": "12324122234224234",
+      "mob": "23432",
+      "gender": "male",
+      "email": "`13543654"
+    }
+  ]
+}

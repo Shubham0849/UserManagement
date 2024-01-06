@@ -1,0 +1,28 @@
+<form [formGroup]="myReactiveForm" (ngSubmit)="onUpdate()">
+    <div>
+    <label for="name" >Name:</label>&nbsp;
+    <input type="text" name="fname" id="name" formControlName="username" >
+</div>
+<div>
+    <label for="id">Id:</label>&nbsp;
+    <input type="text" name="id" id="id" formControlName="id" >
+</div>
+<div>
+    <label for="mobile">MobileNumber:</label>&nbsp;
+    <input type="text" name="mobile" id="mobile" formControlName="mobile">
+</div>
+<div>
+    <br>
+    <p>Choose a gender </p>
+    <input type="text" id="Male" name="gender" formCotrolName="gender">
+    <label for="Male">Male</label><br>
+    <input type="text" id="Female" name="gender" formControlName="gender" >
+    <label for="Female">Female</label>
+</div>
+<div>
+    <label for="email">Email:</label>&nbsp;
+    <input type="text" id="Email" name="email" formControlName="email">
+</div>
+<button type="submit">Submit</button>
+</form>
+ 

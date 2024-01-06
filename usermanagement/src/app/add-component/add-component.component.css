@@ -1,0 +1,12 @@
+.form{
+    width: 100%;
+    display: flex;
+   
+    justify-content: center;
+    
+}
+.wholeForm{
+    position: relative;
+    top: 20px;
+
+}

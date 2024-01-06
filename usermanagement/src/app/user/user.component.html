@@ -1,0 +1,31 @@
+
+<table class="table" >
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Id</th>
+        <th scope="col">Mob</th>
+        <th scope="col">Gender</th>
+        <th scope="col">Email</th>
+        <th scope="col" colspan="2"> Status</th>
+        
+      </tr>
+    </thead>
+    <tbody *ngFor="let data of user">
+      <tr>
+      
+      <td>{{data.username}}</td>
+      <td>{{data.id}}</td>
+      <td>{{data.mobile}}</td>
+      <td>{{data.gender}}</td>
+      <td>{{data.email}}</td>
+   <td>
+<a [routerLink]="['/form',data.id]" >Update</a>
+&nbsp;
+    <span (click)="delete(data.id)" >delete</span>
+   </td>
+      </tr>
+      
+    
+    </tbody>
+  </table>

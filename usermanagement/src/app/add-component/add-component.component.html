@@ -1,0 +1,29 @@
+<form class="wholeForm" [formGroup]="addForm" (ngSubmit)="onSubmit()">
+  <div class="form">
+    <label for="name">NAME:</label>
+    <input type="text" id="name" formControlName="username"/>
+  </div>
+  <div class="form">
+    <label for="id">ID:</label>
+    <input type="text" id="id" formControlName="id"/>
+  </div>
+  <div class="form">
+    <label for="mob">MOBILE:</label>
+    <input type="text" id="mob" formControlName="mob" />
+  </div>
+  <div class="form">
+    <p>Please Select the Gender</p>
+    <br />
+    <label for="male">MALE:</label>
+    <input type="text" id="male" name="gender"  formControlName="gender"/><br />
+    <label for="female">Female:</label>
+    <input type="text" id="female" name="gender"  formControlName="gender"/>
+  </div>
+  <div class="form">
+    <label for="email">EMAIL:</label>
+    <input type="email" id="email" formControlName="email" />
+  </div>
+  <div>
+    <button type="submit">Submit</button>
+  </div>
+</form>
